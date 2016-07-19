@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chicken Language</string>
+    <string name="msg_not_exist_skype">Skype App is Not Exists</string>
+</resources>

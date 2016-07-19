@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">치킨 잉글리시</string>
+    <string name="msg_not_exist_skype">스카이프가 설치 되어있지 않습니다.</string>
+</resources>
