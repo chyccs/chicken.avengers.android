@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.android.gms-play-services-basement-9.0.0_2e36180fdb9941707fb089e92f87b515f1b07178.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\libs\android-async-http-1.3.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d5f22bfe0ac8ae50db1be71f0ff375c4cc02085a">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\android-async-http-1.3.2_c817486ef3d38f5a5e0fb20f5be268e7fa60aa2c.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.firebase-firebase-common-9.0.0_2f9c2613fe2118703c647febefd15965bcd32172.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\internal_impl-23.4.0_9cc86a16099337ca2db168d9dabe685b3dab2e3c.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4caf75b2cfb7ec6e80a57d0ee64fc102ad3578b8">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.android.gms-play-services-gcm-9.0.0_e2c41e3602bc4aeb56e1b57b9f9f18f6b343d08a.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.firebase-firebase-iid-9.0.0_1e252a784abbc894e5e9e11819c7b5fa8b085cd6.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="379d1834afa3c08f43be23a23b103053537b65b5">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.android.gms-play-services-iid-9.0.0_50195f5157e0e56f819dc823719a3c5c2b8760ef.jar" />
+    </item>
+    <item
+        jar="I:\android_sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\support-annotations-23.4.0_36380a9f682df6f22176665f22776e882007f38e.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.android.gms-play-services-base-9.0.0_78684731246f11c95e102fd1ec217818b134db8f.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.android.gms-play-services-tasks-9.0.0_9f10e6d909d5f47d9b437abe23a583377174b740.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.firebase-firebase-analytics-9.0.0_fbc6abd9f3293665137d448f6ac1532639116201.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.google.firebase-firebase-analytics-impl-9.0.0_27ddad821999433f87ac62b41fa3f065b29299d7.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="G:\Workspace\diotek\ChickenLanguage\app\build\intermediates\pre-dexed\product\release\com.android.support-support-v4-23.4.0_2f26aaee5126a1cf6061c72464a47613725f7101.jar" />
+    </item>
+
+</items>
