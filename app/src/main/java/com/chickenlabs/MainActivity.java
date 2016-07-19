@@ -16,11 +16,13 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
@@ -30,6 +32,7 @@ import android.view.animation.Animation;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity
@@ -46,6 +49,8 @@ public class MainActivity extends Activity
 
     private AlphaAnimation mAnim;
 
+    private Handler mHandler;
+
     @Override
     protected void onCreate( Bundle savedInstanceState )
     {
@@ -53,11 +58,19 @@ public class MainActivity extends Activity
 
         setContentView( R.layout.activity_main );
 
+        mHandler = new Handler();
+
+        TextView splashTitle = ( TextView ) findViewById( R.id.splash_title );
+        TextView splashMsg = ( TextView ) findViewById( R.id.splash_message );
+
+        splashTitle.setTypeface( Typeface.createFromAsset(getAssets(), "NanumGothicBold.ttf") );
+        splashMsg.setTypeface( Typeface.createFromAsset(getAssets(), "NanumGothic.ttf") );
+
         mWebView = ( WebView ) findViewById( R.id.webView );
         mWebView.setAlpha( 0.0f );
 
         mAnim = new AlphaAnimation( 0.1f, 1.0f );
-        mAnim.setDuration( 2000 );
+        mAnim.setDuration( 1500 );
         mAnim.setAnimationListener( new Animation.AnimationListener()
         {
             @Override
@@ -306,11 +319,18 @@ public class MainActivity extends Activity
         }
 
         @Override
-        public void onPageFinished( WebView view, String url )
+        public void onPageFinished( final WebView view, String url )
         {
             if ( view.getAlpha() != 1.0f )
             {
-                view.startAnimation( mAnim );
+                mHandler.postDelayed( new Runnable()
+                {
+                    @Override
+                    public void run()
+                    {
+                        view.startAnimation( mAnim );
+                    }
+                }, 1000 );
             }
 
             super.onPageFinished( view, url );

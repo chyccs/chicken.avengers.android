@@ -628,6 +628,25 @@
                         "endOffset": 166
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4546,
+                    "endColumn": 66,
+                    "endOffset": 4608
+                },
+                "from": {
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 66,
+                        "endOffset": 234
+                    }
+                }
             }
         ]
     }

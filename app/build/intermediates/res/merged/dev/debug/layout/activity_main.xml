@@ -11,20 +11,39 @@
         <!-- The primary full-screen view. This can be replaced with whatever view
              is needed to present your content, e.g. VideoView, SurfaceView,
              TextureView, etc. -->
-        <TextView
-            android:id="@+id/fullscreen_content"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="200dp"
-            android:gravity="center"
-            android:keepScreenOn="true"
-            android:text="@string/app_name"
-            android:textColor="#ffffffff"
-            android:textSize="50sp"
-            android:textStyle="bold"/>
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/splash_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:keepScreenOn="true"
+                android:text="@string/app_name"
+                android:textColor="#ffffffff"
+                android:textSize="50sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/splash_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="250dp"
+                android:gravity="center"
+                android:keepScreenOn="true"
+                android:text="@string/splash_message"
+                android:textColor="#ffffffff"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
         <!-- This FrameLayout insets its children based on system windows using
              android:fitsSystemWindows. -->
         <FrameLayout
@@ -49,6 +68,7 @@
                     android:indeterminateOnly="true" />
 
             </LinearLayout>
+
         </FrameLayout>
 
     </FrameLayout>

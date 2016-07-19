@@ -33,4 +33,5 @@
     <string msgid="3441753203274453993" name="common_signin_button_text">"로그인"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
     <string name="msg_not_exist_skype">스카이프가 설치 되어있지 않습니다.</string>
+    <string name="splash_message">치킨 한마리 가격으로 영어를 잡아드립니다.</string>
 </resources>

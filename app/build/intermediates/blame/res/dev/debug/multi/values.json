@@ -1128,9 +1128,28 @@
                     "startLine": 64,
                     "startColumn": 4,
                     "startOffset": 7531,
-                    "endLine": 70,
+                    "endColumn": 91,
+                    "endOffset": 7618
+                },
+                "from": {
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 185,
+                        "endColumn": 91,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 7623,
+                    "endLine": 71,
                     "endColumn": 12,
-                    "endOffset": 7840
+                    "endOffset": 7932
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",
@@ -1146,12 +1165,12 @@
             },
             {
                 "to": {
-                    "startLine": 71,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 7845,
-                    "endLine": 73,
+                    "startOffset": 7937,
+                    "endLine": 74,
                     "endColumn": 12,
-                    "endOffset": 8000
+                    "endOffset": 8092
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",
@@ -1167,12 +1186,12 @@
             },
             {
                 "to": {
-                    "startLine": 74,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 8005,
-                    "endLine": 76,
+                    "startOffset": 8097,
+                    "endLine": 77,
                     "endColumn": 12,
-                    "endOffset": 8164
+                    "endOffset": 8256
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",
@@ -1188,12 +1207,12 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 8169,
-                    "endLine": 83,
+                    "startOffset": 8261,
+                    "endLine": 84,
                     "endColumn": 12,
-                    "endOffset": 8600
+                    "endOffset": 8692
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",

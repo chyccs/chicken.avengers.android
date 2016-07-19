@@ -160,14 +160,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int adjust_width=0x7f0b0001;
         public static final int auto=0x7f0b0006;
         public static final int dark=0x7f0b0007;
-        public static final int fullscreen_content=0x7f0b000a;
-        public static final int fullscreen_content_controls=0x7f0b000b;
+        public static final int fullscreen_content=0x7f0b000e;
+        public static final int fullscreen_content_controls=0x7f0b000c;
         public static final int icon_only=0x7f0b0003;
         public static final int light=0x7f0b0008;
         public static final int none=0x7f0b0002;
         public static final int splash=0x7f0b0009;
+        public static final int splash_message=0x7f0b000b;
+        public static final int splash_title=0x7f0b000a;
         public static final int standard=0x7f0b0004;
-        public static final int webView=0x7f0b000c;
+        public static final int webView=0x7f0b000d;
         public static final int wide=0x7f0b0005;
     }
     public static final class integer {
@@ -216,12 +218,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int common_open_on_phone=0x7f05001c;
         public static final int common_signin_button_text=0x7f05001d;
         public static final int common_signin_button_text_long=0x7f05001e;
-        public static final int gcm_defaultSenderId=0x7f050021;
-        public static final int google_api_key=0x7f050022;
-        public static final int google_app_id=0x7f050023;
-        public static final int google_crash_reporting_api_key=0x7f050024;
+        public static final int gcm_defaultSenderId=0x7f050022;
+        public static final int google_api_key=0x7f050023;
+        public static final int google_app_id=0x7f050024;
+        public static final int google_crash_reporting_api_key=0x7f050025;
         public static final int msg_not_exist_skype=0x7f050020;
-        public static final int server_uri=0x7f050025;
+        public static final int server_uri=0x7f050026;
+        public static final int splash_message=0x7f050021;
     }
     public static final class style {
         /** 

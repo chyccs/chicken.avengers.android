@@ -60,8 +60,9 @@
     <string name="google_api_key" translatable="false">AIzaSyBwtXi-an3Exsuas_oFYtAx9Ffd9Frzjyc</string>
     <string name="google_app_id" translatable="false">1:435217166550:android:bcef4d6c481a45f6</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwtXi-an3Exsuas_oFYtAx9Ffd9Frzjyc</string>
-    <string name="msg_not_exist_skype">Skype App is Not Exists</string>
+    <string name="msg_not_exist_skype">Skype app is not exists</string>
     <string name="server_uri" translatable="false">http://192.168.100.50:9080/client/</string>
+    <string name="splash_message">Improve your English with a fried chicken prices</string>
     <style name="AppBaseTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
         <!--
             Theme customizations available in newer API levels can go in
