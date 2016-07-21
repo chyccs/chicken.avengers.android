@@ -22,6 +22,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
@@ -45,10 +46,14 @@ public class MyGcmListenerService extends GcmListenerService
     @Override
     public void onMessageReceived( String from, Bundle data )
     {
+        String tag = data.getString( "tag" );
+        String title = data.getString( "title" );
         String message = data.getString( "message" );
 
-        Log.d( TAG, "From: " + from );
-        Log.d( TAG, "Message: " + message );
+        Log.d( TAG, "From : " + from );
+        Log.d( TAG, "Tag : " + tag );
+        Log.d( TAG, "Title : " + title );
+        Log.d( TAG, "Message : " + message );
 
         if ( from.startsWith( "/topics/" ) )
         {
@@ -71,7 +76,7 @@ public class MyGcmListenerService extends GcmListenerService
          * In some cases it may be useful to show a notification indicating to the user
          * that a message was received.
          */
-        sendNotification( message );
+        sendNotification( tag, title, message );
         // [END_EXCLUDE]
     }
     // [END receive_message]
@@ -81,20 +86,23 @@ public class MyGcmListenerService extends GcmListenerService
      *
      * @param message GCM message received.
      */
-    private void sendNotification( String message )
+    private void sendNotification( String tag, String title, String message )
     {
         Intent intent = new Intent( this, MainActivity.class );
         intent.addFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
         PendingIntent pendingIntent = PendingIntent.getActivity( this, 0 /* Request code */, intent, PendingIntent.FLAG_ONE_SHOT );
 
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder( this )
-                .setSmallIcon( R.drawable.ic_stat_ic_notification )
-                .setTicker("치킨 알림이 도착했어요.")
-                .setContentTitle( getString( R.string.app_name ) )
+                .setSmallIcon( R.mipmap.ic_noti )
+                .setTicker( title )
+                .setContentTitle( title )
                 .setContentText( message )
                 .setAutoCancel( true )
-                .setSound( RingtoneManager.getDefaultUri( RingtoneManager.TYPE_NOTIFICATION ) )
-                .setDefaults( Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE )
+                .setSound( Uri.parse( "android.resource://" + getPackageName() + "/" + R.raw.notisound ) )
+                .setVibrate(new long[] {100, 100, 100, 100} )
+                //.setDefaults( Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE )
+                .setPriority( NotificationCompat.PRIORITY_HIGH )
+                .setVisibility( NotificationCompat.VISIBILITY_PUBLIC )
                 .setContentIntent( pendingIntent );
 
         NotificationManager notificationManager = ( NotificationManager ) getSystemService( Context.NOTIFICATION_SERVICE );

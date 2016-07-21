@@ -2,5 +2,9 @@
     {
         "merged": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\res\\merged\\dev\\debug\\mipmap-hdpi-v4\\ic_noti.png",
+        "source": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\mipmap-hdpi\\ic_noti.png"
     }
 ]
