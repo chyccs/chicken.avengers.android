@@ -16,12 +16,10 @@
 
 package com.chickenlabs.gcm;
 
-import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
@@ -30,6 +28,8 @@ import android.util.Log;
 import com.chickenlabs.MainActivity;
 import com.chickenlabs.R;
 import com.google.android.gms.gcm.GcmListenerService;
+
+import java.util.Random;
 
 public class MyGcmListenerService extends GcmListenerService
 {
@@ -46,14 +46,18 @@ public class MyGcmListenerService extends GcmListenerService
     @Override
     public void onMessageReceived( String from, Bundle data )
     {
+        //int id = data.getInt("id");
+        int id = new Random().nextInt();
         String tag = data.getString( "tag" );
         String title = data.getString( "title" );
         String message = data.getString( "message" );
+        String action = data.getString( "action" );
 
         Log.d( TAG, "From : " + from );
         Log.d( TAG, "Tag : " + tag );
         Log.d( TAG, "Title : " + title );
         Log.d( TAG, "Message : " + message );
+        Log.d( TAG, "Action : " + action );
 
         if ( from.startsWith( "/topics/" ) )
         {
@@ -76,7 +80,7 @@ public class MyGcmListenerService extends GcmListenerService
          * In some cases it may be useful to show a notification indicating to the user
          * that a message was received.
          */
-        sendNotification( tag, title, message );
+        sendNotification( id, tag, title, message, action );
         // [END_EXCLUDE]
     }
     // [END receive_message]
@@ -86,10 +90,12 @@ public class MyGcmListenerService extends GcmListenerService
      *
      * @param message GCM message received.
      */
-    private void sendNotification( String tag, String title, String message )
+    private void sendNotification( int id, String tag, String title, String message, String action )
     {
         Intent intent = new Intent( this, MainActivity.class );
-        intent.addFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
+        intent.addFlags( Intent.FLAG_ACTIVITY_SINGLE_TOP );
+        intent.putExtra( "uri", action );
+
         PendingIntent pendingIntent = PendingIntent.getActivity( this, 0 /* Request code */, intent, PendingIntent.FLAG_ONE_SHOT );
 
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder( this )
@@ -100,13 +106,12 @@ public class MyGcmListenerService extends GcmListenerService
                 .setAutoCancel( true )
                 .setSound( Uri.parse( "android.resource://" + getPackageName() + "/" + R.raw.notisound ) )
                 .setVibrate(new long[] {100, 100, 100, 100} )
-                //.setDefaults( Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE )
                 .setPriority( NotificationCompat.PRIORITY_HIGH )
                 .setVisibility( NotificationCompat.VISIBILITY_PUBLIC )
                 .setContentIntent( pendingIntent );
 
         NotificationManager notificationManager = ( NotificationManager ) getSystemService( Context.NOTIFICATION_SERVICE );
 
-        notificationManager.notify( 0 /* ID of notification */, notificationBuilder.build() );
+        notificationManager.notify( id, notificationBuilder.build() );
     }
 }

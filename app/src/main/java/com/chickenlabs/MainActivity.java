@@ -101,7 +101,9 @@ public class MainActivity extends Activity
 
         mWebView.setWebViewClient( new WebClient() );
 
-        mWebView.loadUrl( getString( R.string.server_uri ) );
+        load(getIntent());
+
+        //mWebView.loadUrl( getString( R.string.server_uri ) );
 
         mRegistrationBroadcastReceiver = new BroadcastReceiver()
         {
@@ -177,6 +179,24 @@ public class MainActivity extends Activity
     {
         super.onResume();
         registerReceiver();
+    }
+
+    private void load(Intent intent)
+    {
+        String uri = "";
+
+        if (intent == null || (uri = intent.getStringExtra( "uri" )) == null ) {
+            uri = "";
+        }
+
+        Log.d(TAG,  getString( R.string.server_uri ) + uri);
+        mWebView.loadUrl( getString( R.string.server_uri ) + uri );
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent( intent );
+        load(intent);
     }
 
     @Override
