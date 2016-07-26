@@ -7,8 +7,6 @@
 package com.google.android.gms;
 
 public final class R {
-	public static final class anim {
-	}
 	public static final class attr {
 		public static final int buttonSize = 0x7f010005;
 		public static final int circleCrop = 0x7f010004;
@@ -17,30 +15,27 @@ public final class R {
 		public static final int imageAspectRatioAdjust = 0x7f010002;
 		public static final int scopeUris = 0x7f010007;
 	}
-	public static final class bool {
-	}
 	public static final class color {
-		public static final int common_action_bar_splitter = 0x7f080001;
-		public static final int common_google_signin_btn_text_dark = 0x7f080012;
-		public static final int common_google_signin_btn_text_dark_default = 0x7f080002;
-		public static final int common_google_signin_btn_text_dark_disabled = 0x7f080003;
-		public static final int common_google_signin_btn_text_dark_focused = 0x7f080004;
-		public static final int common_google_signin_btn_text_dark_pressed = 0x7f080005;
-		public static final int common_google_signin_btn_text_light = 0x7f080013;
-		public static final int common_google_signin_btn_text_light_default = 0x7f080006;
-		public static final int common_google_signin_btn_text_light_disabled = 0x7f080007;
-		public static final int common_google_signin_btn_text_light_focused = 0x7f080008;
-		public static final int common_google_signin_btn_text_light_pressed = 0x7f080009;
-		public static final int common_plus_signin_btn_text_dark = 0x7f080014;
-		public static final int common_plus_signin_btn_text_dark_default = 0x7f08000a;
-		public static final int common_plus_signin_btn_text_dark_disabled = 0x7f08000b;
-		public static final int common_plus_signin_btn_text_dark_focused = 0x7f08000c;
-		public static final int common_plus_signin_btn_text_dark_pressed = 0x7f08000d;
-		public static final int common_plus_signin_btn_text_light = 0x7f080015;
-		public static final int common_plus_signin_btn_text_light_default = 0x7f08000e;
-		public static final int common_plus_signin_btn_text_light_disabled = 0x7f08000f;
-		public static final int common_plus_signin_btn_text_light_focused = 0x7f080010;
-		public static final int common_plus_signin_btn_text_light_pressed = 0x7f080011;
+		public static final int common_google_signin_btn_text_dark = 0x7f080011;
+		public static final int common_google_signin_btn_text_dark_default = 0x7f080001;
+		public static final int common_google_signin_btn_text_dark_disabled = 0x7f080002;
+		public static final int common_google_signin_btn_text_dark_focused = 0x7f080003;
+		public static final int common_google_signin_btn_text_dark_pressed = 0x7f080004;
+		public static final int common_google_signin_btn_text_light = 0x7f080012;
+		public static final int common_google_signin_btn_text_light_default = 0x7f080005;
+		public static final int common_google_signin_btn_text_light_disabled = 0x7f080006;
+		public static final int common_google_signin_btn_text_light_focused = 0x7f080007;
+		public static final int common_google_signin_btn_text_light_pressed = 0x7f080008;
+		public static final int common_plus_signin_btn_text_dark = 0x7f080013;
+		public static final int common_plus_signin_btn_text_dark_default = 0x7f080009;
+		public static final int common_plus_signin_btn_text_dark_disabled = 0x7f08000a;
+		public static final int common_plus_signin_btn_text_dark_focused = 0x7f08000b;
+		public static final int common_plus_signin_btn_text_dark_pressed = 0x7f08000c;
+		public static final int common_plus_signin_btn_text_light = 0x7f080014;
+		public static final int common_plus_signin_btn_text_light_default = 0x7f08000d;
+		public static final int common_plus_signin_btn_text_light_disabled = 0x7f08000e;
+		public static final int common_plus_signin_btn_text_light_focused = 0x7f08000f;
+		public static final int common_plus_signin_btn_text_light_pressed = 0x7f080010;
 	}
 	public static final class dimen {
 	}
@@ -101,8 +96,6 @@ public final class R {
 	}
 	public static final class integer {
 		public static final int google_play_services_version = 0x7f090000;
-	}
-	public static final class interpolator {
 	}
 	public static final class layout {
 	}

@@ -26,17 +26,17 @@
                     "startLine": 3,
                     "startColumn": 4,
                     "startOffset": 155,
-                    "endColumn": 60,
-                    "endOffset": 211
+                    "endColumn": 89,
+                    "endOffset": 240
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
                         "startOffset": 261,
-                        "endColumn": 60,
-                        "endOffset": 317
+                        "endColumn": 89,
+                        "endOffset": 346
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 216,
-                    "endColumn": 89,
-                    "endOffset": 301
+                    "startOffset": 245,
+                    "endColumn": 79,
+                    "endOffset": 320
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 322,
-                        "endColumn": 89,
-                        "endOffset": 407
+                        "startOffset": 351,
+                        "endColumn": 79,
+                        "endOffset": 426
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 306,
-                    "endColumn": 79,
-                    "endOffset": 381
+                    "startOffset": 325,
+                    "endColumn": 89,
+                    "endOffset": 410
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 412,
-                        "endColumn": 79,
-                        "endOffset": 487
+                        "startOffset": 431,
+                        "endColumn": 89,
+                        "endOffset": 516
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 386,
+                    "startOffset": 415,
                     "endColumn": 89,
-                    "endOffset": 471
+                    "endOffset": 500
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 492,
+                        "startOffset": 521,
                         "endColumn": 89,
-                        "endOffset": 577
+                        "endOffset": 606
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 476,
-                    "endColumn": 89,
-                    "endOffset": 561
+                    "startOffset": 505,
+                    "endColumn": 79,
+                    "endOffset": 580
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 582,
-                        "endColumn": 89,
-                        "endOffset": 667
+                        "startOffset": 611,
+                        "endColumn": 79,
+                        "endOffset": 686
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 566,
-                    "endColumn": 79,
-                    "endOffset": 641
+                    "startOffset": 585,
+                    "endColumn": 80,
+                    "endOffset": 661
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 672,
-                        "endColumn": 79,
-                        "endOffset": 747
+                        "startOffset": 691,
+                        "endColumn": 80,
+                        "endOffset": 767
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 646,
-                    "endColumn": 80,
-                    "endOffset": 722
+                    "startOffset": 666,
+                    "endColumn": 79,
+                    "endOffset": 741
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 752,
-                        "endColumn": 80,
-                        "endOffset": 828
+                        "startOffset": 772,
+                        "endColumn": 79,
+                        "endOffset": 847
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 727,
+                    "startOffset": 746,
                     "endColumn": 79,
-                    "endOffset": 802
+                    "endOffset": 821
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 833,
+                        "startOffset": 852,
                         "endColumn": 79,
-                        "endOffset": 908
+                        "endOffset": 927
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 807,
-                    "endColumn": 79,
-                    "endOffset": 882
+                    "startOffset": 826,
+                    "endColumn": 87,
+                    "endOffset": 909
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 913,
-                        "endColumn": 79,
-                        "endOffset": 988
+                        "startOffset": 932,
+                        "endColumn": 87,
+                        "endOffset": 1015
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 887,
-                    "endColumn": 87,
-                    "endOffset": 970
+                    "startOffset": 914,
+                    "endColumn": 77,
+                    "endOffset": 987
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 993,
-                        "endColumn": 87,
-                        "endOffset": 1076
+                        "startOffset": 1020,
+                        "endColumn": 77,
+                        "endOffset": 1093
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 975,
-                    "endColumn": 77,
-                    "endOffset": 1048
+                    "startOffset": 992,
+                    "endColumn": 87,
+                    "endOffset": 1075
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1081,
-                        "endColumn": 77,
-                        "endOffset": 1154
+                        "startOffset": 1098,
+                        "endColumn": 87,
+                        "endOffset": 1181
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1053,
+                    "startOffset": 1080,
                     "endColumn": 87,
-                    "endOffset": 1136
+                    "endOffset": 1163
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1159,
+                        "startOffset": 1186,
                         "endColumn": 87,
-                        "endOffset": 1242
+                        "endOffset": 1269
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1141,
-                    "endColumn": 87,
-                    "endOffset": 1224
+                    "startOffset": 1168,
+                    "endColumn": 77,
+                    "endOffset": 1241
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1247,
-                        "endColumn": 87,
-                        "endOffset": 1330
+                        "startOffset": 1274,
+                        "endColumn": 77,
+                        "endOffset": 1347
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1229,
-                    "endColumn": 77,
-                    "endOffset": 1302
+                    "startOffset": 1246,
+                    "endColumn": 78,
+                    "endOffset": 1320
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1335,
-                        "endColumn": 77,
-                        "endOffset": 1408
+                        "startOffset": 1352,
+                        "endColumn": 78,
+                        "endOffset": 1426
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1307,
-                    "endColumn": 78,
-                    "endOffset": 1381
+                    "startOffset": 1325,
+                    "endColumn": 77,
+                    "endOffset": 1398
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1413,
-                        "endColumn": 78,
-                        "endOffset": 1487
+                        "startOffset": 1431,
+                        "endColumn": 77,
+                        "endOffset": 1504
                     }
                 }
             },
@@ -310,47 +310,28 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1386,
+                    "startOffset": 1403,
                     "endColumn": 77,
-                    "endOffset": 1459
+                    "endOffset": 1476
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1492,
+                        "startOffset": 1509,
                         "endColumn": 77,
-                        "endOffset": 1565
+                        "endOffset": 1582
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1464,
-                    "endColumn": 77,
-                    "endOffset": 1537
-                },
-                "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1570,
-                        "endColumn": 77,
-                        "endOffset": 1643
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2453,
+                    "startOffset": 2392,
                     "endColumn": 57,
-                    "endOffset": 2506
+                    "endOffset": 2445
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\dimens.xml",
@@ -365,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2511,
+                    "startOffset": 2450,
                     "endColumn": 55,
-                    "endOffset": 2562
+                    "endOffset": 2501
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\dimens.xml",
@@ -384,30 +365,30 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2567,
+                    "startOffset": 2506,
                     "endColumn": 66,
-                    "endOffset": 2629
+                    "endOffset": 2568
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 633,
+                        "startOffset": 638,
                         "endColumn": 66,
-                        "endOffset": 695
+                        "endOffset": 700
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2634,
+                    "startOffset": 2573,
                     "endColumn": 53,
-                    "endOffset": 2683
+                    "endOffset": 2622
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\strings.xml",
@@ -422,20 +403,39 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2688,
+                    "startOffset": 2627,
                     "endColumn": 231,
-                    "endOffset": 2915
+                    "endOffset": 2854
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2153,
+                        "endColumn": 231,
+                        "endOffset": 2380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2859,
+                    "endColumn": 125,
+                    "endOffset": 2980
+                },
+                "from": {
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 2214,
-                        "endColumn": 231,
-                        "endOffset": 2441
+                        "startOffset": 2385,
+                        "endColumn": 125,
+                        "endOffset": 2506
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2920,
-                    "endColumn": 125,
-                    "endOffset": 3041
+                    "startOffset": 2985,
+                    "endColumn": 180,
+                    "endOffset": 3161
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 2446,
-                        "endColumn": 125,
-                        "endOffset": 2567
+                        "startOffset": 2511,
+                        "endColumn": 180,
+                        "endOffset": 2687
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3046,
-                    "endColumn": 180,
-                    "endOffset": 3222
+                    "startOffset": 3166,
+                    "endColumn": 124,
+                    "endOffset": 3286
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 2572,
-                        "endColumn": 180,
-                        "endOffset": 2748
+                        "startOffset": 2692,
+                        "endColumn": 124,
+                        "endOffset": 2812
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3227,
-                    "endColumn": 124,
-                    "endOffset": 3347
+                    "startOffset": 3291,
+                    "endColumn": 123,
+                    "endOffset": 3410
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 2753,
-                        "endColumn": 124,
-                        "endOffset": 2873
+                        "startOffset": 2817,
+                        "endColumn": 123,
+                        "endOffset": 2936
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3352,
-                    "endColumn": 123,
-                    "endOffset": 3471
+                    "startOffset": 3415,
+                    "endColumn": 212,
+                    "endOffset": 3623
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 2878,
-                        "endColumn": 123,
-                        "endOffset": 2997
+                        "startOffset": 2941,
+                        "endColumn": 212,
+                        "endOffset": 3149
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3476,
-                    "endColumn": 212,
-                    "endOffset": 3684
+                    "startOffset": 3628,
+                    "endColumn": 214,
+                    "endOffset": 3838
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 3002,
-                        "endColumn": 212,
-                        "endOffset": 3210
+                        "startOffset": 3154,
+                        "endColumn": 214,
+                        "endOffset": 3364
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3689,
-                    "endColumn": 214,
-                    "endOffset": 3899
+                    "startOffset": 3843,
+                    "endColumn": 122,
+                    "endOffset": 3961
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 3215,
-                        "endColumn": 214,
-                        "endOffset": 3425
+                        "startOffset": 3369,
+                        "endColumn": 122,
+                        "endOffset": 3487
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3904,
-                    "endColumn": 122,
-                    "endOffset": 4022
+                    "startOffset": 3966,
+                    "endColumn": 164,
+                    "endOffset": 4126
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 3430,
-                        "endColumn": 122,
-                        "endOffset": 3548
+                        "startOffset": 3492,
+                        "endColumn": 164,
+                        "endOffset": 3652
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4027,
-                    "endColumn": 164,
-                    "endOffset": 4187
+                    "startOffset": 4131,
+                    "endColumn": 93,
+                    "endOffset": 4220
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 3553,
-                        "endColumn": 164,
-                        "endOffset": 3713
+                        "startOffset": 3657,
+                        "endColumn": 93,
+                        "endOffset": 3746
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4192,
-                    "endColumn": 93,
-                    "endOffset": 4281
+                    "startOffset": 4225,
+                    "endColumn": 140,
+                    "endOffset": 4361
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
-                        "startOffset": 3718,
-                        "endColumn": 93,
-                        "endOffset": 3807
+                        "startOffset": 3751,
+                        "endColumn": 140,
+                        "endOffset": 3887
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4286,
-                    "endColumn": 140,
-                    "endOffset": 4422
+                    "startOffset": 4366,
+                    "endColumn": 89,
+                    "endOffset": 4451
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 3812,
-                        "endColumn": 140,
-                        "endOffset": 3948
+                        "startOffset": 3892,
+                        "endColumn": 89,
+                        "endOffset": 3977
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 4427,
-                    "endColumn": 89,
-                    "endOffset": 4512
+                    "startOffset": 4456,
+                    "endColumn": 102,
+                    "endOffset": 4554
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
-                        "startOffset": 3953,
-                        "endColumn": 89,
-                        "endOffset": 4038
+                        "startOffset": 3982,
+                        "endColumn": 102,
+                        "endOffset": 4080
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 4517,
-                    "endColumn": 102,
-                    "endOffset": 4615
+                    "startOffset": 4559,
+                    "endColumn": 150,
+                    "endOffset": 4705
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
-                        "startOffset": 4043,
-                        "endColumn": 102,
-                        "endOffset": 4141
+                        "startOffset": 4085,
+                        "endColumn": 150,
+                        "endOffset": 4231
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4620,
-                    "endColumn": 150,
-                    "endOffset": 4766
+                    "startOffset": 4710,
+                    "endColumn": 121,
+                    "endOffset": 4827
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
-                        "startOffset": 4146,
-                        "endColumn": 150,
-                        "endOffset": 4292
+                        "startOffset": 4236,
+                        "endColumn": 121,
+                        "endOffset": 4353
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4771,
-                    "endColumn": 121,
-                    "endOffset": 4888
+                    "startOffset": 4832,
+                    "endColumn": 142,
+                    "endOffset": 4970
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 4297,
-                        "endColumn": 121,
-                        "endOffset": 4414
+                        "startOffset": 4358,
+                        "endColumn": 142,
+                        "endOffset": 4496
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4893,
-                    "endColumn": 142,
-                    "endOffset": 5031
+                    "startOffset": 4975,
+                    "endColumn": 99,
+                    "endOffset": 5070
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 4419,
-                        "endColumn": 142,
-                        "endOffset": 4557
+                        "startOffset": 4501,
+                        "endColumn": 99,
+                        "endOffset": 4596
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5036,
-                    "endColumn": 99,
-                    "endOffset": 5131
+                    "startOffset": 5075,
+                    "endColumn": 150,
+                    "endOffset": 5221
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 4562,
-                        "endColumn": 99,
-                        "endOffset": 4657
+                        "startOffset": 4601,
+                        "endColumn": 150,
+                        "endOffset": 4747
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5136,
-                    "endColumn": 150,
-                    "endOffset": 5282
+                    "startOffset": 5226,
+                    "endColumn": 91,
+                    "endOffset": 5313
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
-                        "startOffset": 4662,
-                        "endColumn": 150,
-                        "endOffset": 4808
+                        "startOffset": 4752,
+                        "endColumn": 91,
+                        "endOffset": 4839
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 5287,
-                    "endColumn": 91,
-                    "endOffset": 5374
+                    "startOffset": 5318,
+                    "endColumn": 218,
+                    "endOffset": 5532
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.2.1\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 42,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 4813,
-                        "endColumn": 91,
-                        "endOffset": 4900
+                        "startOffset": 863,
+                        "endColumn": 218,
+                        "endOffset": 1077
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 5379,
+                    "startOffset": 5537,
                     "endColumn": 218,
-                    "endOffset": 5593
+                    "endOffset": 5751
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 859,
+                        "startOffset": 4844,
                         "endColumn": 218,
-                        "endOffset": 1073
+                        "endOffset": 5058
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 5598,
-                    "endColumn": 218,
-                    "endOffset": 5812
+                    "startOffset": 5756,
+                    "endColumn": 94,
+                    "endOffset": 5846
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 4905,
-                        "endColumn": 218,
-                        "endOffset": 5119
+                        "startOffset": 5063,
+                        "endColumn": 94,
+                        "endOffset": 5153
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 5817,
-                    "endColumn": 94,
-                    "endOffset": 5907
+                    "startOffset": 5851,
+                    "endColumn": 104,
+                    "endOffset": 5951
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 5124,
-                        "endColumn": 94,
-                        "endOffset": 5214
+                        "startOffset": 5158,
+                        "endColumn": 104,
+                        "endOffset": 5258
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 5912,
-                    "endColumn": 104,
-                    "endOffset": 6012
+                    "startOffset": 5956,
+                    "endColumn": 180,
+                    "endOffset": 6132
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 5219,
-                        "endColumn": 104,
-                        "endOffset": 5319
+                        "startOffset": 5263,
+                        "endColumn": 180,
+                        "endOffset": 5439
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6017,
-                    "endColumn": 180,
-                    "endOffset": 6193
+                    "startOffset": 6137,
+                    "endColumn": 124,
+                    "endOffset": 6257
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
-                        "startOffset": 5324,
-                        "endColumn": 180,
-                        "endOffset": 5500
+                        "startOffset": 5444,
+                        "endColumn": 124,
+                        "endOffset": 5564
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 6198,
-                    "endColumn": 124,
-                    "endOffset": 6318
+                    "startOffset": 6262,
+                    "endColumn": 174,
+                    "endOffset": 6432
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
-                        "startOffset": 5505,
-                        "endColumn": 124,
-                        "endOffset": 5625
+                        "startOffset": 5569,
+                        "endColumn": 174,
+                        "endOffset": 5739
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 6323,
-                    "endColumn": 174,
-                    "endOffset": 6493
+                    "startOffset": 6437,
+                    "endColumn": 104,
+                    "endOffset": 6537
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 5630,
-                        "endColumn": 174,
-                        "endOffset": 5800
+                        "startOffset": 5744,
+                        "endColumn": 104,
+                        "endOffset": 5844
                     }
                 }
             },
@@ -918,18 +918,18 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 6498,
-                    "endColumn": 104,
-                    "endOffset": 6598
+                    "startOffset": 6542,
+                    "endColumn": 147,
+                    "endOffset": 6685
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
-                        "startOffset": 5805,
-                        "endColumn": 104,
-                        "endOffset": 5905
+                        "startOffset": 5849,
+                        "endColumn": 147,
+                        "endOffset": 5992
                     }
                 }
             },
@@ -937,18 +937,18 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 6603,
-                    "endColumn": 147,
-                    "endOffset": 6746
+                    "startOffset": 6690,
+                    "endColumn": 62,
+                    "endOffset": 6748
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
-                        "startOffset": 5910,
-                        "endColumn": 147,
-                        "endOffset": 6053
+                        "startOffset": 5997,
+                        "endColumn": 62,
+                        "endOffset": 6055
                     }
                 }
             },
@@ -956,18 +956,18 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 6751,
-                    "endColumn": 62,
-                    "endOffset": 6809
+                    "startOffset": 6753,
+                    "endColumn": 61,
+                    "endOffset": 6810
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
-                        "startOffset": 6058,
-                        "endColumn": 62,
-                        "endOffset": 6116
+                        "startOffset": 6060,
+                        "endColumn": 61,
+                        "endOffset": 6117
                     }
                 }
             },
@@ -975,18 +975,18 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 6814,
-                    "endColumn": 61,
-                    "endOffset": 6871
+                    "startOffset": 6815,
+                    "endColumn": 78,
+                    "endOffset": 6889
                 },
                 "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
+                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\values\\values.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
-                        "startOffset": 6121,
-                        "endColumn": 61,
-                        "endOffset": 6178
+                        "startOffset": 6122,
+                        "endColumn": 78,
+                        "endOffset": 6196
                     }
                 }
             },
@@ -994,28 +994,9 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 6876,
-                    "endColumn": 78,
-                    "endOffset": 6950
-                },
-                "from": {
-                    "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 53,
-                        "startColumn": 4,
-                        "startOffset": 6183,
-                        "endColumn": 78,
-                        "endOffset": 6257
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 58,
-                    "startColumn": 4,
-                    "startOffset": 6955,
+                    "startOffset": 6894,
                     "endColumn": 81,
-                    "endOffset": 7032
+                    "endOffset": 6971
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\generated\\res\\google-services\\dev\\debug\\values\\values.xml",
@@ -1030,11 +1011,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 7037,
+                    "startOffset": 6976,
                     "endColumn": 103,
-                    "endOffset": 7136
+                    "endOffset": 7075
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\generated\\res\\google-services\\dev\\debug\\values\\values.xml",
@@ -1049,11 +1030,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 7141,
+                    "startOffset": 7080,
                     "endColumn": 102,
-                    "endOffset": 7239
+                    "endOffset": 7178
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\generated\\res\\google-services\\dev\\debug\\values\\values.xml",
@@ -1068,11 +1049,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 7244,
+                    "startOffset": 7183,
                     "endColumn": 119,
-                    "endOffset": 7359
+                    "endOffset": 7298
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\generated\\res\\google-services\\dev\\debug\\values\\values.xml",
@@ -1087,11 +1068,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 7364,
+                    "startOffset": 7303,
                     "endColumn": 71,
-                    "endOffset": 7431
+                    "endOffset": 7370
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\strings.xml",
@@ -1106,11 +1087,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 7436,
+                    "startOffset": 7375,
                     "endColumn": 94,
-                    "endOffset": 7526
+                    "endOffset": 7465
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\build\\generated\\res\\resValues\\dev\\debug\\values\\generated.xml",
@@ -1125,11 +1106,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 7531,
+                    "startOffset": 7470,
                     "endColumn": 91,
-                    "endOffset": 7618
+                    "endOffset": 7557
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\strings.xml",
@@ -1144,12 +1125,12 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 7623,
-                    "endLine": 71,
+                    "startOffset": 7562,
+                    "endLine": 70,
                     "endColumn": 12,
-                    "endOffset": 7932
+                    "endOffset": 7871
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",
@@ -1165,12 +1146,12 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 7937,
-                    "endLine": 74,
+                    "startOffset": 7876,
+                    "endLine": 73,
                     "endColumn": 12,
-                    "endOffset": 8092
+                    "endOffset": 8031
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",
@@ -1186,12 +1167,12 @@
             },
             {
                 "to": {
-                    "startLine": 75,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 8097,
-                    "endLine": 77,
+                    "startOffset": 8036,
+                    "endLine": 76,
                     "endColumn": 12,
-                    "endOffset": 8256
+                    "endOffset": 8195
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",
@@ -1207,12 +1188,12 @@
             },
             {
                 "to": {
-                    "startLine": 78,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 8261,
-                    "endLine": 84,
+                    "startOffset": 8200,
+                    "endLine": 83,
                     "endColumn": 12,
-                    "endOffset": 8692
+                    "endOffset": 8631
                 },
                 "from": {
                     "file": "G:\\Workspace\\diotek\\ChickenLanguage\\app\\src\\main\\res\\values\\styles.xml",

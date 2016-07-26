@@ -6,7 +6,7 @@
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activar servizos de Google Play"</string>
     <string msgid="7118643132557593940" name="common_google_play_services_install_button">"Descargar servizos de Google Play"</string>
     <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> non se executará se o teu teléfono non ten instalados os servizos de Google Play."</string>
-    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> non se executará se o teu tablet non ten instalados os servizos de Google Play."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> non se executará se a túa tableta non ten instalados os servizos de Google Play."</string>
     <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Descargar servizos de Google Play"</string>
     <string msgid="479501935061677276" name="common_google_play_services_invalid_account_text">"A conta especificada non existe neste dispositivo. Escolle unha diferente."</string>
     <string msgid="5775407690646375078" name="common_google_play_services_invalid_account_title">"Conta non válida"</string>
