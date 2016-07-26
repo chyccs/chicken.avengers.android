@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">435217166550</string>
-    <string name="google_api_key" translatable="false">AIzaSyBwtXi-an3Exsuas_oFYtAx9Ffd9Frzjyc</string>
-    <string name="google_app_id" translatable="false">1:435217166550:android:bcef4d6c481a45f6</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwtXi-an3Exsuas_oFYtAx9Ffd9Frzjyc</string>
-</resources>

@@ -35,6 +35,9 @@ import android.webkit.WebViewClient;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.hockeyapp.android.CrashManager;
+import net.hockeyapp.android.UpdateManager;
+
 public class MainActivity extends Activity
 {
     public static final String TAG = "com.chickenlabs";
@@ -126,6 +129,8 @@ public class MainActivity extends Activity
             Intent intent = new Intent( this, RegistrationIntentService.class );
             startService( intent );
         }
+
+        checkForUpdates();
     }
 
     private void registerReceiver()
@@ -172,6 +177,7 @@ public class MainActivity extends Activity
         super.onPause();
         LocalBroadcastManager.getInstance( this ).unregisterReceiver( mRegistrationBroadcastReceiver );
         isReceiverRegistered = false;
+        unregisterManagers();
     }
 
     @Override
@@ -179,6 +185,27 @@ public class MainActivity extends Activity
     {
         super.onResume();
         registerReceiver();
+        checkForCrashes();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        unregisterManagers();
+    }
+
+
+    private void checkForCrashes() {
+        CrashManager.register( this );
+    }
+
+    private void checkForUpdates() {
+        // Remove this for store builds!
+        UpdateManager.register( this );
+    }
+
+    private void unregisterManagers() {
+        UpdateManager.unregister();
     }
 
     private void load(Intent intent)
