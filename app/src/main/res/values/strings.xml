@@ -3,4 +3,6 @@
     <string name="app_name">Chicken Language</string>
     <string name="msg_not_exist_skype">Skype app is not exists</string>
     <string name="splash_message">Improve your English with a fried chicken prices</string>
+    <string name="chatting_uri" translatable="false">https://open.kakao.com/o/si13Owe</string>
+    <string name="info_path" translatable="false">page/androidAppInfo</string>
 </resources>

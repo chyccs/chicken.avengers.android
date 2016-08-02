@@ -8,7 +8,6 @@ android {
         applicationId "com.chickenlabs"
         minSdkVersion 16
         targetSdkVersion 24
-        manifestPlaceholders = [HOCKEYAPP_APP_ID: "bab33041d71847bbbdbbc011cf931787"]
     }
 
     signingConfigs {
@@ -35,12 +34,18 @@ android {
     productFlavors {
         dev {
             resValue "string", "server_uri", "http://192.168.100.50:9080/client/"
+            resValue "string", "hockey_app_security", "f97794ef11ae649655c600d05d4e4397"
+            manifestPlaceholders = [HOCKEYAPP_APP_ID: "bab33041d71847bbbdbbc011cf931787"]
         }
         alpha {
             resValue "string", "server_uri", "http://52.79.109.54:9080/client/"
+            resValue "string", "hockey_app_security", "f97794ef11ae649655c600d05d4e4397"
+            manifestPlaceholders = [HOCKEYAPP_APP_ID: "bab33041d71847bbbdbbc011cf931787"]
         }
         product {
             resValue "string", "server_uri", "http://chickenlanguage.com/client/"
+            resValue "string", "hockey_app_security", "4d5d7dd5adc3fd59ba2c6a019c4c522b"
+            manifestPlaceholders = [HOCKEYAPP_APP_ID: "dbb6bf5fc9fb470ebdbc80a6beafb0f8"]
         }
     }
 
@@ -53,6 +58,7 @@ dependencies {
     compile 'com.android.support:support-v4:24.1.1'
     compile 'com.google.android.gms:play-services-gcm:9.2.1'
     compile 'net.hockeyapp.android:HockeySDK:4.0.1'
+    compile 'com.linroid.filtermenu:library:0.2.+@aar'
 }
 
 apply plugin: 'com.google.gms.google-services'

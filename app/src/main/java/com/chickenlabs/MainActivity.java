@@ -1,21 +1,19 @@
 package com.chickenlabs;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-
 import com.chickenlabs.gcm.QuickstartPreferences;
 import com.chickenlabs.gcm.RegistrationIntentService;
-import com.chickenlabs.provider.CalendarProvider;
-import com.chickenlabs.provider.HttpWorks;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.loopj.android.http.JsonHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
+import com.linroid.filtermenu.library.FilterMenu;
+import com.linroid.filtermenu.library.FilterMenuLayout;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -27,16 +25,26 @@ import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.Menu;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
+import android.widget.Space;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import net.hockeyapp.android.CrashManager;
+import net.hockeyapp.android.FeedbackManager;
+import net.hockeyapp.android.LoginManager;
+import net.hockeyapp.android.Tracking;
 import net.hockeyapp.android.UpdateManager;
+import net.hockeyapp.android.metrics.MetricsManager;
+import net.hockeyapp.android.metrics.model.Extension;
 
 public class MainActivity extends Activity
 {
@@ -53,6 +61,15 @@ public class MainActivity extends Activity
     private AlphaAnimation mAnim;
 
     private Handler mHandler;
+
+    public int getStatusBarHeight() {
+        int result = 0;
+        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
+        if (resourceId > 0) {
+            result = getResources().getDimensionPixelSize(resourceId);
+        }
+        return result;
+    }
 
     @Override
     protected void onCreate( Bundle savedInstanceState )
@@ -72,6 +89,9 @@ public class MainActivity extends Activity
         mWebView = ( WebView ) findViewById( R.id.webView );
         mWebView.setAlpha( 0.0f );
 
+        FrameLayout space = (FrameLayout)findViewById( R.id.webViewFrame );
+        space.setPadding( 0, getStatusBarHeight(), 0, 0 );
+
         mAnim = new AlphaAnimation( 0.1f, 1.0f );
         mAnim.setDuration( 1500 );
         mAnim.setAnimationListener( new Animation.AnimationListener()
@@ -85,6 +105,7 @@ public class MainActivity extends Activity
             @Override
             public void onAnimationEnd( Animation animation )
             {
+                initFilterMenu();
             }
 
             @Override
@@ -105,8 +126,6 @@ public class MainActivity extends Activity
         mWebView.setWebViewClient( new WebClient() );
 
         load(getIntent());
-
-        //mWebView.loadUrl( getString( R.string.server_uri ) );
 
         mRegistrationBroadcastReceiver = new BroadcastReceiver()
         {
@@ -130,7 +149,71 @@ public class MainActivity extends Activity
             startService( intent );
         }
 
+        MetricsManager.register(this, getApplication());
+        FeedbackManager.register(this);
+
+        LoginManager.register(this, getString(R.string.hockey_app_security), LoginManager.LOGIN_MODE_ANONYMOUS);
+        LoginManager.verifyLogin(this, getIntent());
+
         checkForUpdates();
+    }
+
+    private void initFilterMenu()
+    {
+        FilterMenuLayout layout = (FilterMenuLayout ) findViewById(R.id.filter_menu);
+        layout.setVisibility( View.VISIBLE );
+        FilterMenu menu = new FilterMenu.Builder(this)
+                .addItem( android.R.drawable.ic_menu_info_details )
+                .addItem( android.R.drawable.ic_menu_send )
+                .addItem( android.R.drawable.ic_menu_report_image )
+                .addItem( android.R.drawable.ic_menu_help )
+                .attach(layout)
+                .withListener( new FilterMenu.OnMenuChangeListener()
+                {
+                    @Override
+                    public void onMenuItemClick( View view, int position )
+                    {
+                        if ( position == 0 )
+                        {
+                            try
+                            {
+                                PackageInfo pInfo = getPackageManager().getPackageInfo( getPackageName(), 0 );
+                                String version = pInfo.versionName;
+
+                                mWebView.loadUrl( getString( R.string.server_uri ) + getString( R.string.info_path ) + "?version=" + version );
+                            }catch(Exception e)
+                            {
+
+                            }
+                        }
+                        else if ( position == 1 )
+                        {
+                            FeedbackManager.showFeedbackActivity( MainActivity.this );
+                        }
+                        else if ( position == 2 )
+                        {
+                            FeedbackManager.setActivityForScreenshot( MainActivity.this );
+                            FeedbackManager.takeScreenshot( MainActivity.this );
+                            FeedbackManager.unsetCurrentActivityForScreenshot( MainActivity.this );
+                        }
+                        else if ( position == 3 )
+                        {
+                            Intent i = new Intent( Intent.ACTION_VIEW );
+                            i.setData( Uri.parse( getString(R.string.chatting_uri) ) );
+                            MainActivity.this.startActivity( i );
+                        }
+                    }
+
+                    @Override
+                    public void onMenuCollapse()
+                    {
+                    }
+
+                    @Override
+                    public void onMenuExpand()
+                    {
+                    }
+                }).build();
     }
 
     private void registerReceiver()
@@ -174,6 +257,7 @@ public class MainActivity extends Activity
     @Override
     protected void onPause()
     {
+        Tracking.stopUsage(this);
         super.onPause();
         LocalBroadcastManager.getInstance( this ).unregisterReceiver( mRegistrationBroadcastReceiver );
         isReceiverRegistered = false;
@@ -185,6 +269,7 @@ public class MainActivity extends Activity
     {
         super.onResume();
         registerReceiver();
+        Tracking.startUsage(this);
         checkForCrashes();
     }
 
@@ -283,73 +368,6 @@ public class MainActivity extends Activity
                 }
 
                 view.loadUrl( url );
-            }
-            else if ( url.startsWith( "app://set_alarm" ) )
-            {
-                Uri u = Uri.parse( url );
-
-                String studentId = u.getQueryParameter( "studentId" );
-
-                RequestParams params = new RequestParams();
-                params.put( "studentId", studentId );
-
-                HttpWorks.getInstance().get( MainActivity.this, "class/remains", params, new JsonHttpResponseHandler()
-                {
-                    @Override
-                    public void onSuccess( JSONArray arg0 )
-                    {
-                        try
-                        {
-                            CalendarProvider cp = CalendarProvider.getInstance( MainActivity.this );
-
-                            cp.removeAllSchedule();
-
-                            for ( int i = 0; i < arg0.length(); i++ )
-                            {
-                                String title = arg0.getJSONObject( i ).getString( "title" );
-                                long startTime = Long.parseLong( arg0.getJSONObject( i ).getString( "startTime" ) );
-                                int duration = Integer.parseInt( arg0.getJSONObject( i ).getString( "duration" ) );
-
-
-                                cp.addNewSchedule( title, "", startTime, duration );
-
-                                //Log.i(TAG, "jsondate => " + title + " startTime : " + startTime + " duration : " + duration );
-                            }
-
-                            Toast.makeText( MainActivity.this, "수업 스케쥴이 등록 되었습니다.", Toast.LENGTH_LONG ).show();
-
-                        }
-                        catch ( JSONException e )
-                        {
-                            // TODO Auto-generated catch block
-                            e.printStackTrace();
-                        }
-
-                        super.onSuccess( arg0 );
-                    }
-
-                    @Override
-                    public void onFailure( Throwable arg0, String arg1 )
-                    {
-                        super.onFailure( arg0, arg1 );
-                        Toast.makeText( MainActivity.this, "수업 스케쥴 등록이 실패하였습니다.", Toast.LENGTH_LONG ).show();
-                    }
-
-                    @Override
-                    public void onFinish()
-                    {
-                        super.onFinish();
-                    }
-
-                    @Override
-                    public void onStart()
-                    {
-                        super.onStart();
-                    }
-
-                } );
-
-                return true;
             }
             else
             {
