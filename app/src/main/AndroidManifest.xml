@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest package="com.chickenlabs"
           xmlns:android="http://schemas.android.com/apk/res/android"
-          android:versionCode="4"
-          android:versionName="1.0.3"> <!-- [END gcm_permission] -->
+          android:versionCode="5"
+          android:versionName="1.0.5"> <!-- [END gcm_permission] -->
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="24"/>
