@@ -33,6 +33,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Space;
 import android.widget.TextView;
@@ -158,15 +159,51 @@ public class MainActivity extends Activity
         checkForUpdates();
     }
 
+    FilterMenu menu;
+    ImageView ivAllowNoti;
+
+    private boolean getAllowNoti()
+    {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences( MainActivity.this );
+        return sharedPreferences.getBoolean( QuickstartPreferences.ALLOW_NOTIFICATION, false );
+    }
+
+    private void setAllowNoti(boolean allow)
+    {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences( MainActivity.this );
+        sharedPreferences.edit().putBoolean( QuickstartPreferences.ALLOW_NOTIFICATION, allow ).apply();
+    }
+
+    private void setAllowNotiIcon(boolean allow)
+    {
+        ivAllowNoti.setImageResource(allow ? R.drawable.ic_notifications_active_white_24dp : R.drawable.ic_notifications_off_white_24dp);
+        menu.getItems().get( 1 ).setView( ivAllowNoti );
+    }
+
     private void initFilterMenu()
     {
+        ivAllowNoti = new ImageView(this);
+        ivAllowNoti.setImageResource(R.drawable.ic_notifications_active_white_24dp);
+
         FilterMenuLayout layout = (FilterMenuLayout ) findViewById(R.id.filter_menu);
         layout.setVisibility( View.VISIBLE );
-        FilterMenu menu = new FilterMenu.Builder(this)
-                .addItem( android.R.drawable.ic_menu_info_details )
-                .addItem( android.R.drawable.ic_menu_send )
-                .addItem( android.R.drawable.ic_menu_report_image )
-                .addItem( android.R.drawable.ic_menu_help )
+        menu = new FilterMenu.Builder(this)
+
+                // 앱 기본 정보
+                // action - info
+                .addItem( R.drawable.ic_info_white_24dp )
+                // 알림 설정
+                // social - notifications
+                .addItem( ivAllowNoti )
+                // 문의 하기
+                // action - help
+                .addItem( R.drawable.ic_help_white_24dp )
+                // 친구 맺기
+                // social group
+                .addItem( R.drawable.ic_group_white_24dp )
+                // 버그 리포트
+                // action - report problem
+                .addItem( R.drawable.ic_report_problem_white_24dp )
                 .attach(layout)
                 .withListener( new FilterMenu.OnMenuChangeListener()
                 {
@@ -181,26 +218,34 @@ public class MainActivity extends Activity
                                 String version = pInfo.versionName;
 
                                 mWebView.loadUrl( getString( R.string.server_uri ) + getString( R.string.info_path ) + "?version=" + version );
-                            }catch(Exception e)
+                            }
+                            catch(Exception e)
                             {
 
                             }
                         }
                         else if ( position == 1 )
                         {
-                            FeedbackManager.showFeedbackActivity( MainActivity.this );
+                            boolean toggle = !getAllowNoti();
+
+                            setAllowNoti( toggle );
+                            setAllowNotiIcon( toggle );
                         }
                         else if ( position == 2 )
-                        {
-                            FeedbackManager.setActivityForScreenshot( MainActivity.this );
-                            FeedbackManager.takeScreenshot( MainActivity.this );
-                            FeedbackManager.unsetCurrentActivityForScreenshot( MainActivity.this );
-                        }
-                        else if ( position == 3 )
                         {
                             Intent i = new Intent( Intent.ACTION_VIEW );
                             i.setData( Uri.parse( getString(R.string.chatting_uri) ) );
                             MainActivity.this.startActivity( i );
+                        }
+                        else if ( position == 3 )
+                        {
+                            Intent i = new Intent( Intent.ACTION_VIEW );
+                            i.setData( Uri.parse( getString(R.string.yellow_uri) ) );
+                            MainActivity.this.startActivity( i );
+                        }
+                        else if ( position == 4 )
+                        {
+                            FeedbackManager.showFeedbackActivity( MainActivity.this );
                         }
                     }
 
@@ -214,6 +259,8 @@ public class MainActivity extends Activity
                     {
                     }
                 }).build();
+
+        setAllowNotiIcon(getAllowNoti());
     }
 
     private void registerReceiver()
@@ -355,9 +402,7 @@ public class MainActivity extends Activity
                 String studentId = u.getQueryParameter( "sid" );
 
                 SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences( MainActivity.this );
-
                 sharedPreferences.edit().putString( QuickstartPreferences.STUDENT_ID, studentId ).apply();
-
                 String token = sharedPreferences.getString( QuickstartPreferences.TOKEN, null );
 
                 Log.i( TAG, "sid : " + studentId + ", token : " + token );

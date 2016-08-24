@@ -59,14 +59,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/product/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/product/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/product/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProduct/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProduct/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProduct/assets" type="java-test-resource" />
@@ -75,6 +67,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProduct/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProduct/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProduct/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProduct/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/release/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/release/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/release/assets" type="java-resource" />
